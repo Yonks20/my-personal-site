@@ -4,7 +4,6 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "tw:run": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
     "bundle:dev": "npx webpack ./src/main.js --watch",
     "dev": "concurrently \"npm run tw:run\" \"npm run bundle:dev\""
